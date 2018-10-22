@@ -9,7 +9,10 @@ public class Car {
 	private double price;
 
 	public Car() {
-		super();
+		make = "";
+		model = "";
+		year = 0;
+		price = 0.0;
 	}
 
 	public Car(String make, String model, int year, double price) {
